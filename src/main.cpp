@@ -48,6 +48,7 @@ void setup()
   LCD_Init();
   Lvgl_Init();
   ui_init();
+  lv_obj_invalidate(lv_scr_act()); lv_refr_now(NULL); this worked
   //Lvgl_Example1();
   // lv_demo_widgets();
   // lv_demo_benchmark();
