@@ -17,7 +17,7 @@ This repository provides a premium template and professional guide for using the
 | Component | Detail |
 | :--- | :--- |
 | **Microcontroller** | ESP32-S3R8 Dual-core (240MHz) |
-| **Display** | 1.46" Circular Touch LCD (454x454) |
+| **Display** | 1.46" Circular Touch LCD (412x412) |
 | **Flash** | 16MB |
 | **PSRAM** | 8MB (Octal SPI) |
 | **Audio** | PCM5101 DAC + High-quality Speaker Support |
