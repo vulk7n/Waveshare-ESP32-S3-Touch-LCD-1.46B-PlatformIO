@@ -1,0 +1,1 @@
+# Waveshare-ESP32-S3-Touch-LCD-1.46B-PlatformIO
