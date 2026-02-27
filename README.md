@@ -69,16 +69,19 @@ We use a specialized partition scheme (`esp_sr_16.csv`) to maximize the 16MB fla
 ### 3. Build Configuration (`platformio.ini`)
 ```ini
 [env:waveshare_esp32_s3_lcd_146]
-platform = espressif32
+platform = https://github.com/pioarduino/platform-espressif32.git
 board = waveshare_esp32_s3_lcd_146
 framework = arduino
 
 monitor_speed = 115200
 upload_speed = 921600
 
-
 board_build.psram = enabled
 board_build.partitions = default_16MB.csv
+
+build_flags =
+    -DBOARD_HAS_PSRAM
+    -DARDUINO_USB_MODE=1
 ```
 
 ---
